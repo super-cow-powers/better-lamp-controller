@@ -1,0 +1,1418 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "453be148-bd6e-4cc7-9524-ceabf1f96040")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED_Dual_AAKK"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_AAKK"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, cathodes on pins 3 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_AAKK_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_Dual_AAKK_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.048)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 158.75 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dc619f7-b153-4aba-8ff6-3d15ebe23af9")
+	)
+	(junction
+		(at 123.19 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134a5aac-e9fd-41fc-9811-ac2874ce7bb0")
+	)
+	(junction
+		(at 152.4 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13e39acd-0e37-4ae5-917d-14acd94c8f45")
+	)
+	(junction
+		(at 152.4 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "201c7a1a-fc08-412c-bd92-dd1404373142")
+	)
+	(junction
+		(at 123.19 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "329e93c4-f2dc-4f98-a2cc-eb2ef81f142f")
+	)
+	(junction
+		(at 152.4 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48aa7804-eeb5-435e-982d-29112ece47e0")
+	)
+	(junction
+		(at 116.84 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71694125-f0f6-4a1a-8f48-e5175fdf0a74")
+	)
+	(junction
+		(at 116.84 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f405dc1-d726-4838-940d-bd39d9d8647c")
+	)
+	(junction
+		(at 158.75 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80007791-0f5e-4d32-b31e-5e961ae4bfde")
+	)
+	(junction
+		(at 158.75 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c4249e3-434a-4af6-9ae0-ef4ca0a2a387")
+	)
+	(junction
+		(at 123.19 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f768a7e-8767-4ce6-90f7-df7767c19004")
+	)
+	(junction
+		(at 158.75 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c38bc249-d3c1-4b9e-8527-1103894b9714")
+	)
+	(junction
+		(at 116.84 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cef3d1ee-4d0f-4bac-aef5-27607e0528c1")
+	)
+	(junction
+		(at 116.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eba7ac50-1a48-46df-9a0f-c6f917b5db3c")
+	)
+	(junction
+		(at 152.4 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee8bafa5-fb1a-47b4-95aa-246619c7b401")
+	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5af79de-67b5-4935-81d4-110095ef54fa")
+	)
+	(wire
+		(pts
+			(xy 123.19 77.47) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06148e7e-4b31-4875-b68b-84167b1c3305")
+	)
+	(wire
+		(pts
+			(xy 147.32 137.16) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151ff1da-6473-4c13-b757-6b370c95e658")
+	)
+	(wire
+		(pts
+			(xy 123.19 137.16) (xy 132.08 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15318ab2-4238-47e2-894c-23fc75cdf4bc")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154f33e0-2808-4067-9a50-7a4bc54f4ee3")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dfa45c-7ad2-4170-bc1c-3a6bad13c4c7")
+	)
+	(wire
+		(pts
+			(xy 123.19 77.47) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279e3e8b-5e45-4fd9-9ee9-da09f381785d")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e1f842-e9d1-440b-8e13-43f0cb197a74")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd16b05-dc45-4534-b1ba-07645b696fd4")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 132.08 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d5e73f-decd-4d32-801e-0c024fc66932")
+	)
+	(wire
+		(pts
+			(xy 147.32 132.08) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e4b020-6cb7-48b8-bb68-44a6f4010fe9")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5623e49c-4f89-4593-a80c-e36929c9f108")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56886ffa-29fb-42f4-acd9-c0628acbad13")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5da8c1-c5fc-4a02-b4ac-e6793a7bd1d6")
+	)
+	(wire
+		(pts
+			(xy 147.32 57.15) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607c9b49-167f-4fd8-956f-aa6ff7d3adf8")
+	)
+	(wire
+		(pts
+			(xy 147.32 52.07) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65428945-2da9-4979-93f4-e4ce203cc405")
+	)
+	(wire
+		(pts
+			(xy 100.33 52.07) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0b3e41-f102-4cb7-b96d-69db9756f1f8")
+	)
+	(wire
+		(pts
+			(xy 116.84 52.07) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d61241a-929c-40a5-8fd7-3f11f6d71c8c")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 162.56 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8044a31a-e6db-44b1-b890-16675ed0f398")
+	)
+	(wire
+		(pts
+			(xy 152.4 99.06) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8218b5cc-8f15-4024-a546-0f77f61be7ca")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad59dfc-8957-4f3e-840c-83fdb52d7da3")
+	)
+	(wire
+		(pts
+			(xy 158.75 52.07) (xy 162.56 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9500e7d1-5cf2-4700-b7a9-677e612fa56b")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9906affe-2d7a-407e-a52d-c75d352357fe")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 158.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad51c9b-34a4-4bc4-a7d8-12df4db3508d")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f97fb61-6f11-4225-aed2-893754e16c29")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09d3a00-0cca-4e90-b475-da0569df64bd")
+	)
+	(wire
+		(pts
+			(xy 116.84 132.08) (xy 132.08 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5046323-7244-4699-b2d5-837cd459bc2c")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a671b247-6804-4687-8127-09737075a83b")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 132.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8df0463-cae3-43e0-9be7-ffae7121e1cb")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9792a5-c435-4d2c-9148-2d73eb6552e6")
+	)
+	(wire
+		(pts
+			(xy 132.08 77.47) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcecc74c-9901-4a76-b0ee-16c47faab50d")
+	)
+	(wire
+		(pts
+			(xy 116.84 72.39) (xy 132.08 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2a55cd-c1f6-467f-9b66-daecfdf2d023")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 132.08 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2956b3-88b8-4258-a76f-a6c47e57f917")
+	)
+	(wire
+		(pts
+			(xy 158.75 132.08) (xy 158.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04f9d08-54bb-4597-bfe2-8a65ce28af24")
+	)
+	(wire
+		(pts
+			(xy 147.32 118.11) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d892279e-be23-4f66-9a67-0e030d14820e")
+	)
+	(wire
+		(pts
+			(xy 116.84 52.07) (xy 116.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68ff077-cd09-4249-b66b-ba589229d744")
+	)
+	(wire
+		(pts
+			(xy 158.75 72.39) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e86ef47d-7324-4649-8450-6816bc4e6422")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 152.4 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91c5789-fc1e-4215-92ce-31b7a7c4f508")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 123.19 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee96247c-83e8-4cb5-a772-330c736e45e1")
+	)
+	(wire
+		(pts
+			(xy 158.75 113.03) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad9de8e-7d4b-4b0d-8a14-c8bb0e1043a7")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd57fb50-f9f1-4c0b-81f6-c47c73dd8bb2")
+	)
+	(hierarchical_label "K1"
+		(shape output)
+		(at 162.56 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b0076a8-f8bd-468c-9f88-5429793c5a83")
+	)
+	(hierarchical_label "K2"
+		(shape output)
+		(at 162.56 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28f0c2e7-38b4-4c9e-a46a-40f38907ccba")
+	)
+	(hierarchical_label "A1"
+		(shape input)
+		(at 100.33 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7923f81a-313a-43e9-95b6-c74806ab7b25")
+	)
+	(hierarchical_label "A2"
+		(shape input)
+		(at 100.33 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fbac429-9f4d-4e26-a614-701092a63f13")
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 139.7 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a3f40bb-daeb-464e-aea0-3515c7b7da60")
+		(property "Reference" "D7"
+			(at 139.573 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C155KGJRKT"
+			(at 139.573 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_1210"
+			(at 140.462 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.462 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0fc22d2f-8b0a-452f-9291-059b7a9925f1")
+		)
+		(pin "4"
+			(uuid "6f1c899d-5709-41d7-8b12-8e9146b9a7a0")
+		)
+		(pin "3"
+			(uuid "70a9eccb-8c67-4b26-9aa3-e4dfa9cb1cbe")
+		)
+		(pin "1"
+			(uuid "abdc0153-2928-4bdc-a47f-8a7ca68ff402")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/0a4a371f-39ae-49a0-9c3a-37e2f2340b6d"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/5ff34ac9-8c08-47ce-b18b-fa9f57d49a9a"
+					(reference "D37")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/699cb15f-07fb-4eda-92f5-a4abb4fac8de"
+					(reference "D47")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/739b93d3-2b79-4842-a48d-9e983ea4f3d9"
+					(reference "D52")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/73edc0c0-c968-40c0-b23b-2cec62e627be"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/766db1cc-7d5e-4770-aa1e-c529a1e48660"
+					(reference "D32")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/95c7589c-ec18-45df-ac86-82ef335fa141"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/9b2aedac-f6da-4820-98d7-402c661c600c"
+					(reference "D57")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/a21cf923-0d83-4bb3-b854-4bf7efab5bb5"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/b173bed0-dcbb-492d-8495-19a6abf70f0d"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/c391d988-b190-4421-a7d3-c3f855efd5b4"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/dfce2d41-c517-4b08-9f59-b8e084269c5c"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 139.7 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fb009a3-3588-4181-a7fe-1966ce80939e")
+		(property "Reference" "D8"
+			(at 139.573 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C155KGJRKT"
+			(at 139.573 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_1210"
+			(at 140.462 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.462 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d73ef7f8-881b-4db2-bc0c-1afdf55dea6c")
+		)
+		(pin "4"
+			(uuid "e3fbb3e7-956d-43c3-ab5a-164863aa045f")
+		)
+		(pin "3"
+			(uuid "e96b7c6e-71e7-4693-87d5-f60fa2b31a63")
+		)
+		(pin "1"
+			(uuid "c1040717-de58-4288-b707-39225d3da7b4")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/0a4a371f-39ae-49a0-9c3a-37e2f2340b6d"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/5ff34ac9-8c08-47ce-b18b-fa9f57d49a9a"
+					(reference "D38")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/699cb15f-07fb-4eda-92f5-a4abb4fac8de"
+					(reference "D48")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/739b93d3-2b79-4842-a48d-9e983ea4f3d9"
+					(reference "D53")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/73edc0c0-c968-40c0-b23b-2cec62e627be"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/766db1cc-7d5e-4770-aa1e-c529a1e48660"
+					(reference "D33")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/95c7589c-ec18-45df-ac86-82ef335fa141"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/9b2aedac-f6da-4820-98d7-402c661c600c"
+					(reference "D58")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/a21cf923-0d83-4bb3-b854-4bf7efab5bb5"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/b173bed0-dcbb-492d-8495-19a6abf70f0d"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/c391d988-b190-4421-a7d3-c3f855efd5b4"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/dfce2d41-c517-4b08-9f59-b8e084269c5c"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 139.7 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7062c46-c692-4f5c-b6b0-b08baf107f10")
+		(property "Reference" "D10"
+			(at 139.573 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C155KGJRKT"
+			(at 139.573 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_1210"
+			(at 140.462 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.462 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 139.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c8e69e19-2c17-43f9-9ba2-426ee8f21dfc")
+		)
+		(pin "4"
+			(uuid "8ff995a8-309c-47ae-bc93-59eb00d0f022")
+		)
+		(pin "3"
+			(uuid "0e3f3b2c-e577-49cf-8396-13dfc1c622ba")
+		)
+		(pin "1"
+			(uuid "e72b0564-4a17-4852-8701-d1fd17916bed")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/0a4a371f-39ae-49a0-9c3a-37e2f2340b6d"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/5ff34ac9-8c08-47ce-b18b-fa9f57d49a9a"
+					(reference "D40")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/699cb15f-07fb-4eda-92f5-a4abb4fac8de"
+					(reference "D50")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/739b93d3-2b79-4842-a48d-9e983ea4f3d9"
+					(reference "D55")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/73edc0c0-c968-40c0-b23b-2cec62e627be"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/766db1cc-7d5e-4770-aa1e-c529a1e48660"
+					(reference "D35")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/95c7589c-ec18-45df-ac86-82ef335fa141"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/9b2aedac-f6da-4820-98d7-402c661c600c"
+					(reference "D60")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/a21cf923-0d83-4bb3-b854-4bf7efab5bb5"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/b173bed0-dcbb-492d-8495-19a6abf70f0d"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/c391d988-b190-4421-a7d3-c3f855efd5b4"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/dfce2d41-c517-4b08-9f59-b8e084269c5c"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 139.7 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b30ed960-8d24-4c7b-8289-65551a2c0369")
+		(property "Reference" "D6"
+			(at 139.573 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C155KGJRKT"
+			(at 139.573 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_1210"
+			(at 140.462 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.462 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e5017df4-bca4-4d73-98f7-124303bfa682")
+		)
+		(pin "4"
+			(uuid "c6149b31-6f28-4fa6-8945-0a1c5e3fa486")
+		)
+		(pin "3"
+			(uuid "6eb9eb97-d4a2-4b06-9a9c-821802ead5b7")
+		)
+		(pin "1"
+			(uuid "da78e10f-616e-4fe3-a01b-b3d6bde6c778")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/0a4a371f-39ae-49a0-9c3a-37e2f2340b6d"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/5ff34ac9-8c08-47ce-b18b-fa9f57d49a9a"
+					(reference "D36")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/699cb15f-07fb-4eda-92f5-a4abb4fac8de"
+					(reference "D46")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/739b93d3-2b79-4842-a48d-9e983ea4f3d9"
+					(reference "D51")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/73edc0c0-c968-40c0-b23b-2cec62e627be"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/766db1cc-7d5e-4770-aa1e-c529a1e48660"
+					(reference "D31")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/95c7589c-ec18-45df-ac86-82ef335fa141"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/9b2aedac-f6da-4820-98d7-402c661c600c"
+					(reference "D56")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/a21cf923-0d83-4bb3-b854-4bf7efab5bb5"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/b173bed0-dcbb-492d-8495-19a6abf70f0d"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/c391d988-b190-4421-a7d3-c3f855efd5b4"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/dfce2d41-c517-4b08-9f59-b8e084269c5c"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Dual_AAKK")
+		(at 139.7 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8f36073-2c88-4f37-a347-306822ab382d")
+		(property "Reference" "D9"
+			(at 139.573 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C155KGJRKT"
+			(at 139.573 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_RGB_1210"
+			(at 140.462 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.462 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual LED, cathodes on pins 3 and 4"
+			(at 139.7 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c6af31d-add4-4619-9391-e034ad766ec1")
+		)
+		(pin "4"
+			(uuid "69dbe25f-be7d-4a34-83dc-621d35a6def7")
+		)
+		(pin "3"
+			(uuid "bb5c0a4d-a539-4c59-9bcf-c6bb7044b24c")
+		)
+		(pin "1"
+			(uuid "311931f2-b8ad-4e25-9723-1494fe8f5367")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/0a4a371f-39ae-49a0-9c3a-37e2f2340b6d"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/5ff34ac9-8c08-47ce-b18b-fa9f57d49a9a"
+					(reference "D39")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/699cb15f-07fb-4eda-92f5-a4abb4fac8de"
+					(reference "D49")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/739b93d3-2b79-4842-a48d-9e983ea4f3d9"
+					(reference "D54")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/73edc0c0-c968-40c0-b23b-2cec62e627be"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/766db1cc-7d5e-4770-aa1e-c529a1e48660"
+					(reference "D34")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/95c7589c-ec18-45df-ac86-82ef335fa141"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/9b2aedac-f6da-4820-98d7-402c661c600c"
+					(reference "D59")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/a21cf923-0d83-4bb3-b854-4bf7efab5bb5"
+					(reference "D14")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/b173bed0-dcbb-492d-8495-19a6abf70f0d"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/c391d988-b190-4421-a7d3-c3f855efd5b4"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/dfce2d41-c517-4b08-9f59-b8e084269c5c"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

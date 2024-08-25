@@ -1,0 +1,68 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a399b04c-fb39-4d1c-a652-d22c93f60d96")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CLK"
+		(shape input)
+		(at 33.02 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46538a11-2103-4206-9c4e-dbb4bd0aa9bb")
+	)
+	(hierarchical_label "Latch"
+		(shape input)
+		(at 33.02 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4cd653ea-5bda-4c0a-ab22-fc139e571cee")
+	)
+	(hierarchical_label "nCLR"
+		(shape input)
+		(at 33.02 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53535e17-f4e7-4324-95ae-7c05988b0fcf")
+	)
+	(hierarchical_label "PWM"
+		(shape input)
+		(at 33.02 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8582ce9a-e6bf-4086-9dc0-bddc5bf3efff")
+	)
+	(hierarchical_label "DAT"
+		(shape input)
+		(at 33.02 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad699426-b075-42e9-b237-d77372784e9c")
+	)
+)

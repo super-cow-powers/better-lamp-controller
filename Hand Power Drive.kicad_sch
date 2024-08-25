@@ -1,0 +1,1544 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cda7d69e-f44f-47b7-8690-a14a4fefd20b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Transistor_Array:ULN2003"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ULN2003"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "darlington transistor array"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*4.4x5.2mm*P0.65mm* TSSOP*4.4x5mm*P0.65mm* SOIC*W*5.3x10.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ULN2003_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.508 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 5.08) (xy -3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.08) (xy 4.064 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.731) (xy -1.016 6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 5.08) (xy -0.508 10.16) (xy 2.921 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 6.096) (xy -3.556 4.064) (xy -2.032 5.08) (xy -3.556 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.969) (xy -1.016 5.969) (xy -0.508 6.731) (xy 0 5.969)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ULN2003_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(hierarchical_label "i13"
+		(shape input)
+		(at 128.27 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11e56a38-576e-484a-922e-23279c961ec9")
+	)
+	(hierarchical_label "o12"
+		(shape input)
+		(at 148.59 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "120977a6-bd9f-4b3b-bc26-8255c7affc3b")
+	)
+	(hierarchical_label "o6"
+		(shape input)
+		(at 148.59 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1abde761-0ad8-48fd-b4e7-998d1eb2ff4e")
+	)
+	(hierarchical_label "o8"
+		(shape input)
+		(at 148.59 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ad717e6-a3e7-4495-8983-0115307ac95f")
+	)
+	(hierarchical_label "o13"
+		(shape input)
+		(at 148.59 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e44f84e-dd5d-4280-9907-f3ab1408f9ad")
+	)
+	(hierarchical_label "i6"
+		(shape input)
+		(at 128.27 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33f14027-957b-4bea-a063-2f8c4ce79664")
+	)
+	(hierarchical_label "i2"
+		(shape input)
+		(at 128.27 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3804ed66-edf8-470c-bed9-b50abf80fa02")
+	)
+	(hierarchical_label "i4"
+		(shape input)
+		(at 128.27 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49d6bd7f-0c26-4bd0-8373-c69e89b732e8")
+	)
+	(hierarchical_label "o2"
+		(shape input)
+		(at 148.59 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57905575-e650-4014-996b-05c2a270b7f7")
+	)
+	(hierarchical_label "i10"
+		(shape input)
+		(at 128.27 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dd915ca-5d4d-43c1-9134-92dd64365e97")
+	)
+	(hierarchical_label "o11"
+		(shape input)
+		(at 148.59 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "688b09f5-84e8-484d-8081-35e5cb2f0498")
+	)
+	(hierarchical_label "i12"
+		(shape input)
+		(at 128.27 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "861e857e-3c46-48b2-9503-b4a4f163d22b")
+	)
+	(hierarchical_label "i9"
+		(shape input)
+		(at 128.27 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f06c8e9-877f-4506-b1f1-eb4735a8bad8")
+	)
+	(hierarchical_label "i7"
+		(shape input)
+		(at 128.27 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93042133-8288-4658-83a8-2c1d954a757d")
+	)
+	(hierarchical_label "i8"
+		(shape input)
+		(at 128.27 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "952595ef-f086-4d7a-80e0-b456dae7b17e")
+	)
+	(hierarchical_label "i11"
+		(shape input)
+		(at 128.27 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a87603d-c399-45d4-9f71-9996d4b18dd6")
+	)
+	(hierarchical_label "o4"
+		(shape input)
+		(at 148.59 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bb37ca1-8985-4069-9959-821695114f54")
+	)
+	(hierarchical_label "o1"
+		(shape input)
+		(at 148.59 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bfa2b60-c41d-4382-84d2-f6b4f3ae309d")
+	)
+	(hierarchical_label "o3"
+		(shape input)
+		(at 148.59 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8d6cf65-4424-48ba-a934-1e381c879df3")
+	)
+	(hierarchical_label "o7"
+		(shape input)
+		(at 148.59 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be30691b-4de8-4948-bb6e-66ac4f02b2a9")
+	)
+	(hierarchical_label "o9"
+		(shape input)
+		(at 148.59 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be76b1df-af12-42bc-af9a-32dfcd868d07")
+	)
+	(hierarchical_label "i3"
+		(shape input)
+		(at 128.27 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cabe6815-37f0-4ae2-bf45-5cc86268514d")
+	)
+	(hierarchical_label "o5"
+		(shape input)
+		(at 148.59 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cddf9c1d-df8e-4cc8-a993-bb51847dff02")
+	)
+	(hierarchical_label "o14"
+		(shape input)
+		(at 148.59 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0f48581-8e98-4b01-b9ba-df971e6f31e8")
+	)
+	(hierarchical_label "o10"
+		(shape input)
+		(at 148.59 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d89fc228-57c6-4cb8-9170-26d1e1bd2bc6")
+	)
+	(hierarchical_label "i1"
+		(shape input)
+		(at 128.27 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6d493a-5d6a-4b49-acca-b01759db9325")
+	)
+	(hierarchical_label "i5"
+		(shape input)
+		(at 128.27 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f467e463-cbfd-47ec-84f6-920aa2e64e18")
+	)
+	(hierarchical_label "i14"
+		(shape input)
+		(at 128.27 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f87082e4-a1a7-48c4-8adc-840cfb6db3e9")
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003")
+		(at 138.43 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c9a276f-71ba-43f6-9842-290ecc073307")
+		(property "Reference" "U7"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003V12DR"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 140.97 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "cca91781-76a5-4038-b758-e900f3552611")
+		)
+		(pin "2"
+			(uuid "eb1c3e77-f556-4a5a-a04e-6f722d679644")
+		)
+		(pin "10"
+			(uuid "815526c6-5f81-46e8-958c-f69e7bafad3c")
+		)
+		(pin "15"
+			(uuid "9dd16473-f2be-4519-ae8a-7d7d4cabdbaf")
+		)
+		(pin "1"
+			(uuid "50a0a127-6482-45a4-a84d-67579d23b633")
+		)
+		(pin "16"
+			(uuid "784f8571-a132-4a5b-a7b2-b44f9d380d3e")
+		)
+		(pin "6"
+			(uuid "db6a3dc8-a858-41aa-a0fe-6ac8187d3f8d")
+		)
+		(pin "8"
+			(uuid "ac5f084e-9821-43da-9b26-f0c37c01285e")
+		)
+		(pin "13"
+			(uuid "a4cebd7f-7329-4bca-a271-e8a184c9a782")
+		)
+		(pin "3"
+			(uuid "b9e7e791-430c-49fd-8452-9478ddee81fe")
+		)
+		(pin "9"
+			(uuid "4382aaef-958d-42dc-8ac4-dcc55448dee9")
+		)
+		(pin "11"
+			(uuid "8ad612de-1dd3-4f5a-a046-56566a7819bc")
+		)
+		(pin "5"
+			(uuid "cd2e06da-6ba6-4ee8-a5b5-c8ee9a35a694")
+		)
+		(pin "12"
+			(uuid "f2774d5f-99b4-4a60-9070-189885616467")
+		)
+		(pin "14"
+			(uuid "4315e022-eb29-4be5-86ba-170c3670379b")
+		)
+		(pin "4"
+			(uuid "7417422a-bf8d-45cb-b0e6-5207ff54f501")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/4a91f641-6644-4176-be16-4c94eb32d639"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ed32dca-6821-4d7a-ad73-e6599b4c4bdd")
+		(property "Reference" "#PWR09"
+			(at 138.43 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a63f443-2987-4fc1-8be4-30e984afe9c1")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/4a91f641-6644-4176-be16-4c94eb32d639"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8da5ada4-f765-4361-b4eb-09c8f538b320")
+		(property "Reference" "#PWR011"
+			(at 148.59 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6755402-c99e-4dd8-a1c7-6e042254ee98")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/4a91f641-6644-4176-be16-4c94eb32d639"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd6d0863-6b1b-47e2-b6ae-78dc1a821991")
+		(property "Reference" "#PWR010"
+			(at 148.59 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 148.59 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89cec032-8aeb-42f6-97d0-2d9d4beea563")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/4a91f641-6644-4176-be16-4c94eb32d639"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003")
+		(at 138.43 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5c92279-ccb1-41fc-a561-a667d7276bb5")
+		(property "Reference" "U6"
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003V12DR"
+			(at 138.43 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "2162fdbf-de8c-4440-baf2-8893b1176dd1")
+		)
+		(pin "2"
+			(uuid "2a58850a-2854-4023-aba0-d665a7f095ac")
+		)
+		(pin "10"
+			(uuid "04b61ba5-e280-4e9e-b217-e4b6cba6d625")
+		)
+		(pin "15"
+			(uuid "252b2f1b-2d37-40ca-86f8-3c290a18f71b")
+		)
+		(pin "1"
+			(uuid "c41c0a0f-8d07-4e0a-827a-199a5e91b52e")
+		)
+		(pin "16"
+			(uuid "65efd1d6-1b4b-4a78-aea6-d1cd2a591163")
+		)
+		(pin "6"
+			(uuid "68aac946-88b0-4401-8e56-bfaba888df80")
+		)
+		(pin "8"
+			(uuid "f7842266-bce8-4efa-9f8a-24dfef735882")
+		)
+		(pin "13"
+			(uuid "f323e092-335d-44cd-8e54-8dc38259325c")
+		)
+		(pin "3"
+			(uuid "0b6fa9e8-58cd-4aab-a060-d4a52a7c45c9")
+		)
+		(pin "9"
+			(uuid "a7ad6abd-e8c5-4c91-a57f-7181f2be7777")
+		)
+		(pin "11"
+			(uuid "6b100055-80c2-4958-856f-20ac76b6b886")
+		)
+		(pin "5"
+			(uuid "3bbc932e-035e-446f-bb86-0334eb42514f")
+		)
+		(pin "12"
+			(uuid "056f0ef0-4ad6-4355-bccf-bed154ee3485")
+		)
+		(pin "14"
+			(uuid "c4ca0527-90e0-4b00-936e-7c24bfc5fbe1")
+		)
+		(pin "4"
+			(uuid "194296f0-49bf-41f1-b14f-19aa90272ef3")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/4a91f641-6644-4176-be16-4c94eb32d639"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dab4f479-4dc9-45fd-984c-dbcb4a7a1a4c")
+		(property "Reference" "#PWR08"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa9bbc2a-ccd2-48bd-ad95-a1451da7225d")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/46905e8e-4cf4-419d-ac08-37b97b403d6a/4a91f641-6644-4176-be16-4c94eb32d639"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
