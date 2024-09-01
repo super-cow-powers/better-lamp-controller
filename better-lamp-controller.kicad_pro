@@ -116,7 +116,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.12,
         "min_connection": 0.12,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
@@ -178,7 +178,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.13
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -456,7 +457,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.12,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -490,7 +491,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -500,7 +501,7 @@
         "name": "LV Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.4,
         "via_diameter": 0.8,
         "via_drill": 0.3,
         "wire_width": 6
@@ -511,7 +512,92 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "LV Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/LED_MISO"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/LED_CS"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/LED_SCK"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/LED_MOSI"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/LED_VSYNC"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/LRCLK"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/BCLK"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/AUDIO_DAT"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/SPI1_MOSI"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/SPI1_MISO"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/SPI1_SCK"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "/3v3 Regulator/REG_SW"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "/Audio-"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "/Audio+"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "/SW[0-9]*[0-9]"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "/CS[0-9]*[0-9]"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "+1V1"
+      },
+      {
+        "netclass": "LV Power",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

@@ -1071,6 +1071,17 @@
 		)
 		(uuid "82b85dc1-b70f-4e0f-9532-b2accb230f6b")
 	)
+	(label "REG_SW"
+		(at 147.32 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5541758f-96ba-4b76-8e2c-0b670c386731")
+	)
 	(hierarchical_label "Vin"
 		(shape input)
 		(at 101.6 80.01 180)
