@@ -474,7 +474,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -502,7 +502,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
-        "via_diameter": 0.8,
+        "via_diameter": 0.65,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -596,6 +596,42 @@
       {
         "netclass": "LV Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/EXT_SCLK"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/EXT_MOSI"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/EXT_MISO"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/EXT_VSYNC"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/Ext_CS0"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/Ext_CS2"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/Ext_CS1"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/MCU/USB_D-"
+      },
+      {
+        "netclass": "50R",
+        "pattern": "/MCU/USB_D+"
       }
     ]
   },
