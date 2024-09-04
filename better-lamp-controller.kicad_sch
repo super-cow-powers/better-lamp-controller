@@ -6043,12 +6043,6 @@
 		(uuid "374867dc-4503-4f9e-a53f-955362b97e3a")
 	)
 	(junction
-		(at 31.75 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4cb750a2-e012-4955-81c6-ae0de50389f8")
-	)
-	(junction
 		(at 73.66 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6095,12 +6089,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e11be8-8b1f-4643-bb57-571573cbf715")
-	)
-	(junction
-		(at 31.75 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e1a96c1-3d0c-48f6-ab5b-944d769d04ea")
 	)
 	(junction
 		(at 285.75 198.12)
@@ -6664,16 +6652,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 31.75 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ca1c7a0-118a-44a4-b82a-3b9c917a696e")
-	)
-	(wire
-		(pts
 			(xy 287.02 226.06) (xy 287.02 227.33)
 		)
 		(stroke
@@ -6884,16 +6862,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 142.24) (xy 36.83 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dec84a9-4543-4c84-9d4e-2b91350d388b")
-	)
-	(wire
-		(pts
 			(xy 200.66 85.09) (xy 196.85 85.09)
 		)
 		(stroke
@@ -6911,6 +6879,16 @@
 			(type default)
 		)
 		(uuid "70aa345d-584b-4314-b5c0-a406227a327b")
+	)
+	(wire
+		(pts
+			(xy 31.75 137.16) (xy 31.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7300cb18-7146-419f-9198-83051d09f61f")
 	)
 	(wire
 		(pts
@@ -6981,16 +6959,6 @@
 			(type default)
 		)
 		(uuid "7cb1a56c-5d75-4bf0-86f4-38c45fe6a793")
-	)
-	(wire
-		(pts
-			(xy 27.94 149.86) (xy 31.75 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d8b0d39-ef57-4e29-b179-d285d034d123")
 	)
 	(wire
 		(pts
@@ -7384,16 +7352,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 137.16) (xy 31.75 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4fc0275-6568-423d-b1c1-cf0f81966d7a")
-	)
-	(wire
-		(pts
 			(xy 172.72 153.67) (xy 172.72 157.48)
 		)
 		(stroke
@@ -7781,16 +7739,6 @@
 			(type default)
 		)
 		(uuid "fbaa04a8-f1c4-4ca5-b6b3-8f4d8e408da5")
-	)
-	(wire
-		(pts
-			(xy 31.75 149.86) (xy 36.83 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd67b0bd-fc4b-47f4-9572-832a697cb322")
 	)
 	(wire
 		(pts
@@ -10561,76 +10509,6 @@
 			(project "better-lamp-controller"
 				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 27.94 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47626720-4fb9-4c60-8f97-99c9d50d3c91")
-		(property "Reference" "C11"
-			(at 31.75 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1n"
-			(at 31.75 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 28.9052 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 27.94 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d8ebcdc-1456-4e66-8045-1af4a1f583d1")
-		)
-		(pin "2"
-			(uuid "0bd8d860-e9fd-4107-8990-1c778e5f7280")
-		)
-		(instances
-			(project "better-lamp-controller"
-				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16857,76 +16735,6 @@
 			(project "better-lamp-controller"
 				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 36.83 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4f89612-f028-4fe7-9558-e2dcb1dd5a93")
-		(property "Reference" "R12"
-			(at 39.37 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 39.37 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 35.052 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 36.83 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5695c721-e56f-4c54-853a-6e2de07c320f")
-		)
-		(pin "1"
-			(uuid "d1438a34-1887-48ba-aa64-317007157601")
-		)
-		(instances
-			(project "better-lamp-controller"
-				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43"
-					(reference "R12")
 					(unit 1)
 				)
 			)

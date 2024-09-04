@@ -7168,6 +7168,17 @@
 		)
 		(uuid "f190f80e-8e4d-486f-800f-3b40715d4283")
 	)
+	(label "USB_SHLD"
+		(at 25.4 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1e153ef-ac54-4ee6-92aa-15eaa15fdeaa")
+	)
 	(label "SWCLK"
 		(at 171.45 154.94 0)
 		(fields_autoplaced yes)
@@ -10489,72 +10500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 21.59 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "84b509e8-9146-423c-a6c8-24d42abc98f4")
-		(property "Reference" "#PWR081"
-			(at 21.59 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 21.59 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 21.59 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 21.59 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de7292d0-611a-4267-9cb3-c00013bd138d")
-		)
-		(instances
-			(project "better-lamp-controller"
-				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/b624bc1a-d25e-4c09-9e43-4b433f036622"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 121.92 0)
 		(unit 1)
@@ -12413,6 +12358,72 @@
 			(project "better-lamp-controller"
 				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/b624bc1a-d25e-4c09-9e43-4b433f036622"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 21.59 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c449f02f-fe8c-4900-8f07-e1f5e756b669")
+		(property "Reference" "#PWR018"
+			(at 21.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 21.59 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 21.59 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9004990b-e4a0-4bf2-aa5c-747812acbb45")
+		)
+		(instances
+			(project "better-lamp-controller"
+				(path "/714ed833-23d9-46bd-9c89-d82c98fb7d43/b624bc1a-d25e-4c09-9e43-4b433f036622"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
