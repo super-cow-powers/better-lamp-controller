@@ -390,6 +390,14 @@
     [
       "cee84027-4105-436f-8b27-1c7bd82b7655",
       "VFD Power"
+    ],
+    [
+      "adec916e-aae7-4722-9c9a-a36e3f71e26e",
+      "Buttons"
+    ],
+    [
+      "4343f827-c32e-4b41-8108-6356139d2572",
+      "Filament Drive"
     ]
   ],
   "text_variables": {}
