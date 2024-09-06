@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|82400000|84270000|2f35501f-0cb7-4347-8895-8129ead8b342|f5b547f0-c09f-4648-a46c-5d7d1fd151e4",
+        "hole_clearance|82400000|84270000|7e9c336e-37f8-4ad7-a9ff-3ba174341377|f5b547f0-c09f-4648-a46c-5d7d1fd151e4",
+        "hole_clearance|82400000|90370000|6608f5fb-b102-4b40-b22f-adcd30bccb53|065874f8-86ba-4597-95d9-548266d67afe",
+        "hole_clearance|82400000|90370000|f7e86fd7-c4cb-4388-9b76-44b83ebf311e|065874f8-86ba-4597-95d9-548266d67afe"
+      ],
       "meta": {
         "version": 2
       },
@@ -119,15 +124,15 @@
         "min_clearance": 0.12,
         "min_connection": 0.12,
         "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.12,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -474,7 +479,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.13,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -657,7 +662,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./plots",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -5,160 +5,6 @@
 	(uuid "ace6759a-6e3d-46ae-b3dd-3b5f36566303")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74AHCT1G04"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74AHCT1G04"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single NOT Gate, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate NOT LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT* SG-*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74AHCT1G04_0_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74AHCT1G04_1_1"
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -659,6 +505,167 @@
 				)
 			)
 		)
+		(symbol "Global:SN74LVC1G132"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.382 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G132"
+				(at -8.382 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g132.pdf"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -8.382 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G132_0_1"
+				(rectangle
+					(start -5.08 0)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G132_1_1"
+				(text "&"
+					(at 0 -5.588 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input output_low
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:TPS7A0525PDBV"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -828,6 +835,167 @@
 				)
 			)
 		)
+		(symbol "SN74LVC1G132_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.382 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G132"
+				(at -8.382 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g132.pdf"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -8.382 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1G132_1_0_1"
+				(rectangle
+					(start -5.08 0)
+					(end 5.08 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN74LVC1G132_1_1_1"
+				(text "&"
+					(at 0 -5.588 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -13.97 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input output_low
+					(at 7.62 -6.35 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -944,10 +1112,28 @@
 		(uuid "341655fe-a3d0-4fee-98b5-13c4d1f66ca9")
 	)
 	(junction
-		(at 137.16 125.73)
+		(at 91.44 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "778d2370-bc9e-4b50-8738-2f3d7b201ee5")
+		(uuid "52f9cbfe-23b4-4ee2-8d09-9f77bfeee485")
+	)
+	(junction
+		(at 43.18 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5706c4ba-49df-41b9-8532-e610b9c71f54")
+	)
+	(junction
+		(at 59.69 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74e58954-ca22-4468-a8d2-ad393ff4d6b1")
+	)
+	(junction
+		(at 78.74 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7dcf0d3b-8d33-42d9-b714-b86056bd2c3e")
 	)
 	(junction
 		(at 38.1 50.8)
@@ -983,13 +1169,33 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 142.24 125.73)
+			(xy 100.33 110.49) (xy 100.33 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e9ba132-6488-4e2c-bf17-e322ce5c3348")
+		(uuid "1b464a31-9221-4f96-a01f-3f4c10b383f6")
+	)
+	(wire
+		(pts
+			(xy 68.58 110.49) (xy 68.58 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed77a4d-91ef-4e11-993a-4da4a97191b8")
+	)
+	(wire
+		(pts
+			(xy 85.09 110.49) (xy 91.44 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288b7d79-c3e2-45fb-b1b4-979611a40e46")
 	)
 	(wire
 		(pts
@@ -1003,6 +1209,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 110.49) (xy 68.58 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c039ef-dec9-478f-bb15-8e46771b8fb8")
+	)
+	(wire
+		(pts
+			(xy 43.18 127) (xy 60.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b2bea6-8c86-4287-9dde-e277c56d3df7")
+	)
+	(wire
+		(pts
 			(xy 111.76 81.28) (xy 133.35 81.28)
 		)
 		(stroke
@@ -1010,6 +1236,16 @@
 			(type default)
 		)
 		(uuid "38f0dbb3-604d-45be-ab7a-83bd77bb3456")
+	)
+	(wire
+		(pts
+			(xy 43.18 106.68) (xy 78.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4060ac0a-12e8-4b16-b545-201464f44ada")
 	)
 	(wire
 		(pts
@@ -1023,13 +1259,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 125.73) (xy 137.16 125.73)
+			(xy 78.74 106.68) (xy 78.74 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "569d9260-e054-418b-8b41-b64393923b80")
+		(uuid "586ba190-a170-4078-817e-695424641bcf")
 	)
 	(wire
 		(pts
@@ -1053,6 +1289,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 133.35) (xy 92.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d02097c-a868-4928-b01e-f327361d1a1f")
+	)
+	(wire
+		(pts
 			(xy 123.19 63.5) (xy 140.97 63.5)
 		)
 		(stroke
@@ -1063,6 +1309,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 129.54) (xy 78.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732e3b92-8da0-40c2-9dd0-d8b26442915b")
+	)
+	(wire
+		(pts
 			(xy 66.04 50.8) (xy 74.93 50.8)
 		)
 		(stroke
@@ -1070,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "7ab21172-fa3f-4189-95ed-d7196d1de603")
+	)
+	(wire
+		(pts
+			(xy 43.18 114.3) (xy 43.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8143aa15-dabe-4036-9b29-faacd63c6295")
 	)
 	(wire
 		(pts
@@ -1113,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 110.49) (xy 59.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d28c43e-eb43-4ab1-b9f6-b60260879beb")
+	)
+	(wire
+		(pts
 			(xy 143.51 63.5) (xy 143.51 71.12)
 		)
 		(stroke
@@ -1143,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 143.51) (xy 154.94 143.51)
+			(xy 109.22 132.08) (xy 107.95 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1163,13 +1439,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 125.73) (xy 137.16 133.35)
+			(xy 43.18 129.54) (xy 43.18 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3b6d214-6333-4ade-85ac-fd50c95d490d")
+		(uuid "d8e49678-7b57-4165-98cd-960e9bd343cc")
+	)
+	(wire
+		(pts
+			(xy 91.44 110.49) (xy 100.33 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc86e54e-4fe6-4800-973c-44a84778517d")
 	)
 	(wire
 		(pts
@@ -1193,6 +1479,26 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 133.35) (xy 78.74 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34007ba-7277-4262-9d57-203aecc51e25")
+	)
+	(wire
+		(pts
+			(xy 43.18 121.92) (xy 43.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9893934-a1f8-438c-860c-3666ada46fd9")
+	)
+	(wire
+		(pts
 			(xy 74.93 58.42) (xy 74.93 63.5)
 		)
 		(stroke
@@ -1211,6 +1517,16 @@
 		)
 		(uuid "fe29be0f-b5f5-4dbc-98ca-25685a143683")
 	)
+	(text "Rough RC Oscillator (~100kHz)"
+		(exclude_from_sim no)
+		(at 46.736 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6e7a6188-026a-4232-a960-a77264b7e045")
+	)
 	(label "Vfil"
 		(at 76.2 46.99 0)
 		(fields_autoplaced yes)
@@ -1221,17 +1537,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f54ff7d-3f57-4154-bddd-4fe68a058c4e")
-	)
-	(label "VFD_Fil_SWA"
-		(at 127 143.51 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c4ae006-5835-44f4-961c-34a5ebec45c9")
 	)
 	(label "VFD_Fil_SWA"
 		(at 133.35 83.82 180)
@@ -1256,7 +1561,7 @@
 		(uuid "b1ea5f2e-c4e2-4488-bd15-a4f0068af74e")
 	)
 	(label "VFD_Fil_SWB"
-		(at 156.21 143.51 0)
+		(at 109.22 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1265,6 +1570,17 @@
 			(justify left bottom)
 		)
 		(uuid "b76c19fb-e6c7-4653-b85b-3e9c9a001fd6")
+	)
+	(label "VFD_Fil_SWA"
+		(at 78.74 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c32462f3-b333-4a87-81f7-c277845fc447")
 	)
 	(label "VFD_Fil_SWB"
 		(at 133.35 86.36 180)
@@ -1291,6 +1607,30 @@
 	)
 	(hierarchical_label "3Vin"
 		(shape input)
+		(at 53.34 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3033d2f0-1a6d-4853-9328-8f42d9313f53")
+	)
+	(hierarchical_label "EN"
+		(shape input)
+		(at 60.96 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bf9d139-952c-4c38-b3df-63533a6b7495")
+	)
+	(hierarchical_label "3Vin"
+		(shape input)
 		(at 36.83 44.45 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1300,6 +1640,18 @@
 			(justify right)
 		)
 		(uuid "6815993d-9f26-419e-9df5-055f30046613")
+	)
+	(hierarchical_label "3Vin"
+		(shape input)
+		(at 85.09 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72727a2d-8bfd-48b7-a9d0-c73253292b17")
 	)
 	(hierarchical_label "VFb"
 		(shape output)
@@ -1337,9 +1689,9 @@
 		)
 		(uuid "cedd7cd9-719b-4cc2-833f-a33dff935bf8")
 	)
-	(hierarchical_label "3Vin"
+	(hierarchical_label "EN"
 		(shape input)
-		(at 135.89 125.73 180)
+		(at 92.71 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1347,7 +1699,7 @@
 			)
 			(justify right)
 		)
-		(uuid "d1053705-b0b8-4e31-b4ff-f4073f925978")
+		(uuid "f970ad9c-1e1e-4cab-9966-0d2c388b7ee6")
 	)
 	(hierarchical_label "EN"
 		(shape input)
@@ -1360,80 +1712,6 @@
 			(justify right)
 		)
 		(uuid "fb0daa45-3d65-4ec1-b187-71ff1073e381")
-	)
-	(symbol
-		(lib_id "74xGxx:74AHCT1G04")
-		(at 142.24 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "032f73e7-61f0-4fe5-9786-06d231955b48")
-		(property "Reference" "U1"
-			(at 154.94 137.1914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT1G04"
-			(at 154.94 139.7314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
-			(at 142.24 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "65236116-cdba-41d7-a097-675d117f7696")
-		)
-		(pin "5"
-			(uuid "8fab2f54-946a-4296-8afa-7b2e24776f18")
-		)
-		(pin "4"
-			(uuid "63f24806-4b53-475d-8ab4-b5eb2d0c1a6c")
-		)
-		(pin "3"
-			(uuid "e3135b01-3904-411c-9e7e-cd829c87f6c4")
-		)
-		(instances
-			(project "Alarm IO Board"
-				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1704,6 +1982,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 43.18 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d0ded0f-ac96-4635-a544-98dec797a5b8")
+		(property "Reference" "R14"
+			(at 45.72 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330k"
+			(at 45.72 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 41.402 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5816095a-631e-496d-a6c8-81599a7931d9")
+		)
+		(pin "1"
+			(uuid "107e490f-28a4-4abc-91f2-3860de699bde")
+		)
+		(instances
+			(project ""
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 71.12 0)
 		(unit 1)
@@ -1770,6 +2118,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 59.69 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fba59ba-19cc-4d0c-8071-5bd66d10bc14")
+		(property "Reference" "#PWR039"
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec97e28-d83c-4e59-a16d-89401d76b88c")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "505dce0e-e895-436e-9d46-236cced75ec4")
+		(property "Reference" "#PWR05"
+			(at 100.33 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0be459a6-9a77-4df8-8557-c81d7ce150e8")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Driver_Motor:DRV8837C")
 		(at 143.51 83.82 0)
 		(unit 1)
@@ -1797,7 +2277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "kicad global library:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_HandSoldering"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -1862,16 +2342,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 129.54 0)
+		(at 43.18 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62ca3705-ae81-4dd0-a319-b2052be47730")
-		(property "Reference" "C2"
-			(at 146.05 128.2699 0)
+		(uuid "6fba9d6c-041e-4d53-8daf-22fe82781703")
+		(property "Reference" "C10"
+			(at 35.814 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,8 +2358,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0u1"
-			(at 146.05 130.8099 0)
+		(property "Value" "18p"
+			(at 35.814 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,8 +2367,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.2052 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 44.1452 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 129.54 0)
+			(at 43.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +2386,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 129.54 0)
+			(at 43.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,16 +2394,34 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "08b451d9-4d4e-41d2-b2c7-abca547a36d6")
+		(property "MFR PN" "CC0603JPNPO9BN270"
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 43.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "163494f4-3325-45f7-95f7-c817dc9514f2")
+			(uuid "f8546502-71e5-4aa3-8eb9-1fec8229ce40")
+		)
+		(pin "2"
+			(uuid "5945185e-c20c-42aa-9ccc-cdff693dc5a6")
 		)
 		(instances
 			(project "Alarm IO Board"
 				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
-					(reference "C2")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1958,7 +2455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 124.1552 71.12 0)
 			(effects
 				(font
@@ -1995,6 +2492,72 @@
 			(project "Alarm IO Board"
 				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8313a709-0dd0-41a6-bc1a-061261f95b55")
+		(property "Reference" "#PWR03"
+			(at 43.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3000316-42cd-4bfc-8b06-5e8d4a85fd45")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2071,6 +2634,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 91.44 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5ad304-1910-42c0-a21b-3cbda9326cff")
+		(property "Reference" "C12"
+			(at 95.25 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1"
+			(at 95.25 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 92.4052 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9095f062-3c6b-48b3-9e08-9d832a738b8c")
+		)
+		(pin "1"
+			(uuid "f36523d2-aa55-4f5f-aab9-7a945d2015d2")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8b3594-363e-47d0-b9b5-d44cab136498")
+		(property "Reference" "#PWR038"
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef31ab4-c349-4a76-be94-4e88df57337c")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 63.5 0)
 		(unit 1)
@@ -2137,17 +2836,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 153.67 0)
+		(lib_id "Device:C")
+		(at 59.69 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f96f803-b950-4629-a14d-957ad1bc53c9")
-		(property "Reference" "#PWR04"
-			(at 137.16 160.02 0)
+		(uuid "9d5a6210-0ab6-4084-868a-1a4df3fe545f")
+		(property "Reference" "C11"
+			(at 63.5 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0u1"
+			(at 63.5 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 60.6552 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,16 +2872,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 137.16 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 153.67 0)
+		(property "Datasheet" "~"
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,8 +2881,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 137.16 153.67 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,22 +2890,92 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "16c50b8f-3c8b-4cae-968c-ce82760cbbf4")
 		)
 		(pin "1"
-			(uuid "c824b4eb-d396-4d11-875c-848cecbbb54d")
+			(uuid "c8f30a0e-347e-4d08-8067-ec9bb8a4a25c")
 		)
 		(instances
 			(project "Alarm IO Board"
 				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
-					(reference "#PWR04")
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Global:SN74LVC1G132")
+		(at 100.33 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab95c130-d49a-4b9f-bd08-c23c94086569")
+		(property "Reference" "U9"
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G132"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 100.33 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g132.pdf"
+			(at 100.33 123.698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.948 123.952 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddd85dd4-4fd7-4e6f-8eab-10f05f9b3bc1")
+		)
+		(pin "5"
+			(uuid "ba0c02f4-302a-42ea-b104-abe0d03ad522")
+		)
+		(pin "4"
+			(uuid "e824b6b9-e281-4da6-b015-7c66ed88be0a")
+		)
+		(pin "3"
+			(uuid "f5a93f22-7a78-4009-9ebc-d487bbe2387b")
+		)
+		(pin "1"
+			(uuid "4785de4a-e7db-4d56-91fa-4249c7b86178")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2296,7 +3075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 163.5252 71.12 0)
 			(effects
 				(font
@@ -2339,17 +3118,94 @@
 		)
 	)
 	(symbol
+		(lib_name "SN74LVC1G132_1")
+		(lib_id "Global:SN74LVC1G132")
+		(at 68.58 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c37a4111-67d3-4708-8160-bb016cb8ef4a")
+		(property "Reference" "U1"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G132"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 68.58 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g132.pdf"
+			(at 68.58 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.198 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1206006-09c7-4980-93ab-b153f0dcc90a")
+		)
+		(pin "5"
+			(uuid "c3d02021-7893-4fae-928e-81900e9980ce")
+		)
+		(pin "3"
+			(uuid "6782dbca-4379-412f-9fb1-62c6e871bade")
+		)
+		(pin "4"
+			(uuid "3124e056-00d5-4b51-8ae7-7c795e24832c")
+		)
+		(pin "1"
+			(uuid "5b0f51ee-e7e6-47c8-944d-a346044b3be0")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 142.24 133.35 0)
+		(at 91.44 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf806e7e-3d69-45ed-90f9-bed186b156cd")
-		(property "Reference" "#PWR05"
-			(at 142.24 139.7 0)
+		(uuid "c68f450e-02f7-4f80-9f53-9fa6e926e07d")
+		(property "Reference" "#PWR04"
+			(at 91.44 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +3214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 138.43 0)
+			(at 91.44 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,7 +3222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 133.35 0)
+			(at 91.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2375,7 +3231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 133.35 0)
+			(at 91.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2384,7 +3240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 133.35 0)
+			(at 91.44 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,12 +3249,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6602afb-f763-4176-a6f9-562cd04576a5")
+			(uuid "b556386f-6d58-47ae-b276-bcee696a735e")
 		)
 		(instances
 			(project "Alarm IO Board"
 				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)

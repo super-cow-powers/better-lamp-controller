@@ -3740,7 +3740,7 @@
 		(uuid "14cc1c27-bf9b-4589-85d8-b2ee2207d6ef")
 	)
 	(label "g"
-		(at 261.62 92.71 180)
+		(at 261.62 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3794,8 +3794,30 @@
 		)
 		(uuid "1bd29e70-507e-4fa0-8dfe-f2823c5d9f4f")
 	)
+	(label "4_HV"
+		(at 317.5 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20ce198b-a46e-409d-b991-88011b2881cf")
+	)
+	(label "sep_HV"
+		(at 327.66 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "244eb9c6-9804-4ea2-8213-74347f0e1219")
+	)
 	(label "f"
-		(at 261.62 90.17 180)
+		(at 261.62 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3861,7 +3883,7 @@
 		(uuid "43cccaad-b1f2-4c6a-9655-c05d1da03b4d")
 	)
 	(label "a"
-		(at 261.62 77.47 180)
+		(at 261.62 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3872,7 +3894,7 @@
 		(uuid "45156ea5-e862-41bc-a721-ee943c601b67")
 	)
 	(label "b"
-		(at 261.62 80.01 180)
+		(at 261.62 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3915,6 +3937,17 @@
 		)
 		(uuid "4ae11a7c-b676-4bb1-9749-61334e00e817")
 	)
+	(label "3_HV"
+		(at 307.34 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4afd9deb-25a6-499d-a1a0-cdead5cbcf78")
+	)
 	(label "SWI2"
 		(at 54.61 135.89 180)
 		(fields_autoplaced yes)
@@ -3925,6 +3958,17 @@
 			(justify right bottom)
 		)
 		(uuid "4b541d1c-40d0-4b8b-a7b5-b036945d4c59")
+	)
+	(label "b_HV"
+		(at 337.82 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e0588eb-e5f4-4670-9ce9-2b6a7a8d74a5")
 	)
 	(label "Audio-"
 		(at 53.34 49.53 0)
@@ -3958,6 +4002,17 @@
 			(justify right bottom)
 		)
 		(uuid "5e4cb099-e2cd-4d2d-9102-21494aa738de")
+	)
+	(label "c_HV"
+		(at 327.66 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61b15848-1481-4d11-b908-aa2f25582e69")
 	)
 	(label "AIN2"
 		(at 53.34 46.99 0)
@@ -4025,6 +4080,28 @@
 		)
 		(uuid "82a5bfbe-3279-4d66-847d-3586d41f23a0")
 	)
+	(label "g_HV"
+		(at 287.02 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83f40c2b-4148-40a5-a857-8b3c1818cc93")
+	)
+	(label "f_HV"
+		(at 297.18 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8728a7e3-b0c5-49e7-93fa-7f8bf05d1190")
+	)
 	(label "AIN1"
 		(at 54.61 143.51 180)
 		(fields_autoplaced yes)
@@ -4069,6 +4146,17 @@
 		)
 		(uuid "9600f4c5-1d3e-4314-b242-e69ac8dba778")
 	)
+	(label "e_HV"
+		(at 307.34 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3c5c98d-ce2a-46f0-83b2-0136d2f2eb5a")
+	)
 	(label "VFa"
 		(at 140.97 229.87 0)
 		(fields_autoplaced yes)
@@ -4079,6 +4167,17 @@
 			(justify left bottom)
 		)
 		(uuid "ab266d6f-0d17-49d7-8ac1-2d141456b9d3")
+	)
+	(label "a_HV"
+		(at 347.98 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1ddcc25-61dc-4f2c-bb57-03115b82b8ed")
 	)
 	(label "2"
 		(at 144.78 66.04 0)
@@ -4102,6 +4201,17 @@
 		)
 		(uuid "b98d349c-8f92-4d5d-a6ad-fd9b8872ef50")
 	)
+	(label "d_HV"
+		(at 317.5 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bca8edcf-71d8-4b77-96f3-40fb3b3b7923")
+	)
 	(label "sep"
 		(at 261.62 130.81 180)
 		(fields_autoplaced yes)
@@ -4112,6 +4222,17 @@
 			(justify right bottom)
 		)
 		(uuid "bfac27e3-eb90-45bf-9ee8-756afef858cf")
+	)
+	(label "1_HV"
+		(at 287.02 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c279afe2-8668-4b52-b03d-f15831bbea1b")
 	)
 	(label "g"
 		(at 144.78 58.42 0)
@@ -4134,6 +4255,17 @@
 			(justify right bottom)
 		)
 		(uuid "c31d809d-4004-404a-b8d1-ec769d4ace60")
+	)
+	(label "2_HV"
+		(at 297.18 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c42188e6-b382-48a1-a980-0d1f3555df9d")
 	)
 	(label "I2C_SDA"
 		(at 109.22 43.18 180)
@@ -4279,7 +4411,7 @@
 		(uuid "e257009e-95e5-4669-9c31-857c7e6494ec")
 	)
 	(label "e"
-		(at 261.62 87.63 180)
+		(at 261.62 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4290,7 +4422,7 @@
 		(uuid "e3fb946b-0497-4170-ba1f-d41db299630b")
 	)
 	(label "c"
-		(at 261.62 82.55 180)
+		(at 261.62 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5590,7 +5722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 50.8 62.23 0)
 			(effects
 				(font
@@ -5658,7 +5790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kicad global library:SOT-583_DTS"
 			(at 137.16 133.35 0)
 			(effects
 				(font

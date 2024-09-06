@@ -248,64 +248,34 @@
 		)
 	)
 	(junction
-		(at 96.52 92.71)
+		(at 96.52 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "627f1210-a856-407e-8ff5-4d9474edddbd")
+		(uuid "21674b6f-f40a-4c69-b44a-63a3fd79a29e")
 	)
 	(junction
 		(at 96.52 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a270071e-e47a-470c-8674-1eeae5d488d7")
+		(uuid "3ded7f3c-52fc-4d9c-9f7a-48fa273b0af4")
 	)
 	(junction
 		(at 96.52 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c2fec6b3-47c3-418a-9490-0367e01a69ec")
+		(uuid "69b08088-db76-4cf0-94fe-aa3d0d7e0a23")
 	)
 	(junction
-		(at 96.52 71.12)
+		(at 96.52 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e742fca1-5144-4751-8592-5f332854f184")
+		(uuid "75cf05de-85c8-4b3d-af7a-1c9430cd6135")
 	)
 	(junction
 		(at 96.52 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa53e737-8a08-43f6-b20e-72bbe0b76b13")
-	)
-	(wire
-		(pts
-			(xy 96.52 113.03) (xy 96.52 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ddd4167-50f0-459b-b602-28dcc1fceac5")
-	)
-	(wire
-		(pts
-			(xy 96.52 102.87) (xy 96.52 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42dcb843-8132-481a-aa0d-5fc90f33d75b")
-	)
-	(wire
-		(pts
-			(xy 96.52 92.71) (xy 96.52 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7d903b-6f64-49de-beb5-1b01d1d8f013")
+		(uuid "fcc9fdc1-a5b5-4091-8cd4-25f575a19aa7")
 	)
 	(wire
 		(pts
@@ -315,17 +285,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a00b6687-113d-4069-a5a6-c8a9f56bc332")
+		(uuid "0ddd4167-50f0-459b-b602-28dcc1fceac5")
 	)
 	(wire
 		(pts
-			(xy 96.52 71.12) (xy 96.52 81.28)
+			(xy 96.52 92.71) (xy 96.52 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f063f12e-2d45-4327-8f92-50d46213519d")
+		(uuid "1417f7d9-51fa-45b8-8f66-554723e03e6b")
 	)
 	(wire
 		(pts
@@ -335,7 +305,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f5460b5d-709e-4be2-9c40-4b3c93f5b564")
+		(uuid "3340cb9d-5a76-4cd5-8d86-54072ef41eaa")
+	)
+	(wire
+		(pts
+			(xy 96.52 102.87) (xy 96.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4532fd9c-d1f5-421d-b7cb-d45c7be363f4")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 96.52 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "decd085e-7ad6-44be-b647-28b5505f484e")
+	)
+	(wire
+		(pts
+			(xy 96.52 113.03) (xy 96.52 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e247dea7-f62b-466b-829f-d7193c5d38be")
 	)
 	(hierarchical_label "6"
 		(shape bidirectional)
@@ -411,32 +411,32 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 91.44 81.28 0)
+		(at 91.44 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0827b228-78aa-49ba-a500-aba2fc965786")
-		(property "Reference" "SW3"
-			(at 91.44 73.66 0)
+		(uuid "08235c6e-1adb-41b3-bbe7-71f5687596bb")
+		(property "Reference" "SW5"
+			(at 91.44 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 91.44 76.2 0)
+		(property "Value" "Wurth WS-TATV"
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 76.2 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,7 +445,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 76.2 0)
+			(at 91.44 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +454,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 81.28 0)
+			(at 91.44 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -463,83 +463,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1c1921ad-89c6-4866-af9b-eecee32cd6ed")
+			(uuid "a43f9a4d-6aeb-4eb0-a204-89e2dcda02de")
 		)
 		(pin "1"
-			(uuid "6db4cabe-fd01-4bea-a99b-96bffb2390d7")
+			(uuid "ee4aaa81-ab4a-4419-8134-3ec2949e5ad1")
 		)
 		(instances
 			(project "Alarm IO Board"
 				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/adec916e-aae7-4722-9c9a-a36e3f71e26e"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37e392d1-ab35-4e04-beeb-7d30c4fd96ef")
-		(property "Reference" "SW2"
-			(at 91.44 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 91.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f79e32c6-2005-4967-82a3-96838d47550e")
-		)
-		(pin "1"
-			(uuid "4c1c066e-4d3c-4b5c-a48e-c6c9205bf2f1")
-		)
-		(instances
-			(project "Alarm IO Board"
-				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/adec916e-aae7-4722-9c9a-a36e3f71e26e"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -563,7 +495,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Wurth WS-TATV"
 			(at 91.44 54.61 0)
 			(effects
 				(font
@@ -571,7 +503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 91.44 54.61 0)
 			(effects
 				(font
@@ -615,32 +547,32 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 91.44 102.87 0)
+		(at 91.44 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4eb5f1bb-6ec3-443b-88dd-2fe572a6cdc8")
-		(property "Reference" "SW5"
-			(at 91.44 95.25 0)
+		(uuid "6b3cb3f0-aed8-4d2c-b9d3-e993f654e326")
+		(property "Reference" "SW2"
+			(at 91.44 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 91.44 97.79 0)
+		(property "Value" "Wurth WS-TATV"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 91.44 97.79 0)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +581,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 97.79 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +590,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 102.87 0)
+			(at 91.44 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,15 +599,83 @@
 			)
 		)
 		(pin "2"
-			(uuid "204aeac3-3a4c-497e-88d8-c83289afc390")
+			(uuid "507dddf3-b02d-4baf-a0c9-7132be1f6d09")
 		)
 		(pin "1"
-			(uuid "d24c7031-6a29-4d19-919f-da38e1517f5b")
+			(uuid "b42df636-44b8-44a6-bb74-821e42b55753")
 		)
 		(instances
 			(project "Alarm IO Board"
 				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/adec916e-aae7-4722-9c9a-a36e3f71e26e"
-					(reference "SW5")
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 91.44 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aeb66b6b-71ef-4d3d-b55f-4f13891f64ae")
+		(property "Reference" "SW3"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Wurth WS-TATV"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 91.44 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2d3d6749-26cd-4af5-b370-c8839d2198a0")
+		)
+		(pin "1"
+			(uuid "2b3e7473-c042-4c68-9373-1a8bff544b59")
+		)
+		(instances
+			(project "Alarm IO Board"
+				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/adec916e-aae7-4722-9c9a-a36e3f71e26e"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -690,7 +690,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cf7f6b84-5444-4dd1-9ec3-536d2ec91bed")
+		(uuid "b545616e-3f2a-4107-8232-ead8d9b69fb6")
 		(property "Reference" "SW4"
 			(at 91.44 85.09 0)
 			(effects
@@ -699,7 +699,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Wurth WS-TATV"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -707,7 +707,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -735,10 +735,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "ebcbe29d-aa3c-4bb0-8b56-966d5fd01d5f")
+			(uuid "50f16f5a-f4c5-4400-adc7-647670e21d8f")
 		)
 		(pin "1"
-			(uuid "df0c5759-12dc-40fb-a286-53893c07e1bf")
+			(uuid "ac68ad93-00f3-4eff-aa93-be350195c883")
 		)
 		(instances
 			(project "Alarm IO Board"
@@ -758,7 +758,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d0a1a013-5cdf-4cc4-99e9-48d8c408ab63")
+		(uuid "d2e29980-6fe0-4a64-95ea-4bc0b38a8224")
 		(property "Reference" "SW6"
 			(at 91.44 105.41 0)
 			(effects
@@ -767,7 +767,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "Wurth WS-TATV"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -775,7 +775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 91.44 107.95 0)
 			(effects
 				(font
@@ -803,10 +803,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c801410-8c3e-4c25-bdd8-339f5714e85e")
+			(uuid "2ab243fb-c7ea-4dd8-a565-adfb80d0353d")
 		)
 		(pin "1"
-			(uuid "0a018c5f-b261-483c-b916-a86017492d89")
+			(uuid "829d22c9-0e13-4ad9-bfa3-2b968ffa1aef")
 		)
 		(instances
 			(project "Alarm IO Board"
