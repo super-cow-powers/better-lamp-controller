@@ -1106,12 +1106,6 @@
 		(uuid "17656866-fa81-4668-8980-f5db7cca2bfc")
 	)
 	(junction
-		(at 111.76 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "341655fe-a3d0-4fee-98b5-13c4d1f66ca9")
-	)
-	(junction
 		(at 91.44 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1226,16 +1220,6 @@
 			(type default)
 		)
 		(uuid "38b2bea6-8c86-4287-9dde-e277c56d3df7")
-	)
-	(wire
-		(pts
-			(xy 111.76 81.28) (xy 133.35 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38f0dbb3-604d-45be-ab7a-83bd77bb3456")
 	)
 	(wire
 		(pts
@@ -1399,7 +1383,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 111.76 81.28)
+			(xy 106.68 81.28) (xy 133.35 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1712,142 +1696,6 @@
 			(justify right)
 		)
 		(uuid "fb0daa45-3d65-4ec1-b187-71ff1073e381")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08642a26-c68a-4919-92d7-08f9dafec8ff")
-		(property "Reference" "R1"
-			(at 114.3 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 114.3 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 109.982 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 111.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6674fed2-847e-4a17-9a3b-35cd33339cbb")
-		)
-		(pin "1"
-			(uuid "70624afc-9b1d-4132-9225-f56f8a2111d1")
-		)
-		(instances
-			(project "Alarm IO Board"
-				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d79fd1d-0c8a-4864-9381-a0a22581206f")
-		(property "Reference" "#PWR027"
-			(at 111.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "678a7cf1-0f9d-46ed-832d-eee4def4993a")
-		)
-		(instances
-			(project "Alarm IO Board"
-				(path "/1724f6e0-4b54-44f9-83c3-b4b5d1121f36/4343f827-c32e-4b41-8108-6356139d2572"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
